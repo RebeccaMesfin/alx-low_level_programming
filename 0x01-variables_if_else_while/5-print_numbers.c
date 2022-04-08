@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-  int digit;
-  for (digit = 0; digit < 10; digit++)
+  char n;
+  for (n = '0'; n <= '9'; n++)
     {
-      printf("%digit" , digit);
+      putchar(n);
     }
-  printf("\n");
+  putchar('\n');
   return (0);
 }
