@@ -9,7 +9,7 @@ int main(void)
   char alphabet;
   for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
     {
-      if (aplhabet == 'q')
+      if (alphabet == 'q')
 	continue;
       else if (alphabet == 'e')
 	continue;
