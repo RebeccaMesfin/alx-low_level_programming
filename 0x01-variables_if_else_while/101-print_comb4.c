@@ -28,7 +28,7 @@ int main(void)
 	    }
 	}
     }
-  putcjar('\n');
+  putchar('\n');
   return (0);
 }
 		       
